@@ -50,12 +50,14 @@ body {
 }
 
 h1 {
+    position: relative;
     font-family: Arial;
     font-weight: 700;
     font-size: 96px;
     line-height: 96px;
     margin-left: 37%;
     padding-top: 192px;
+    z-index: 2;
 }
 
 h2 {
@@ -74,6 +76,11 @@ h2 {
     margin-left: 0px;
 }
 
+.h2_section_3 {
+    color: #F9FAFB;
+    text-align: center;
+}
+
 header {
     height: 768px;
     width: 100%;
@@ -81,6 +88,7 @@ header {
 }
 
 .section_1 {
+    position: relative;
     height: 756;
     padding-bottom: 148px;
 }
@@ -137,6 +145,7 @@ table {
     background-color:#F3F4F6;
     margin-top: 0px;
     padding-top: 160px;
+    overflow: hidden;
 }
 
 .section_2_text {
@@ -164,6 +173,236 @@ table {
     color:#EF4444;
 }
 
-.header_1 {
-    width: 20%;
+.section_3 {
+    position: relative;
+    height: 920;
+    background-color:#111827;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 148px;
+    box-sizing: border-box;
+}
+
+.section_3_text {
+    margin-top: 24px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color:#F9FAFB;
+}
+
+.section_3_table {
+    color: #F9FAFB;
+}
+
+.circle {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    margin-top: -296px;
+    margin-left: 64px;
+    background-color:#EF4444;
+    border-radius: 480px;
+}
+
+.shar {
+    position: absolute;
+    width: 398px;
+    height: 480px;
+    margin-top: -444px;
+    margin-left: 64px;
+    z-index: 2;
+}
+
+.circle_1 {
+    position: absolute;
+    width: 1196px;
+    height: 1196px;
+    margin-top: -1174px;
+    margin-left: 1002px;
+    background-color:#EF4444;
+    border-radius: 1196px;
+    z-index: 0;
+    display: table-cell;
+}
+
+.logo {
+    position: absolute;
+    width: 176px;
+    height: 35.92px;
+    margin-top: -528.11px;
+    margin-left: 64px;
+    z-index: 2;
+}
+
+.ataturk {
+    position: relative;
+    width: 562px;
+    height: 530px;
+    float: right;
+    margin-top: -414px;
+    margin-right: 264px;
+    z-index: 2;
+}
+
+.circle_2 {
+    position: relative;
+    width: 640px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: -324px;
+    background-color:#EF4444;
+    border-radius: 640px;
+}
+
+.section_3_cart_zag {
+    position: relative;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 64px;
+    z-index: 2;
+}
+
+
+.section_3_cart_text {
+    position: relative;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 12px;
+    z-index: 2;
+}
+
+.section_3_cart {
+    width: 200px;
+    height: 150;
+    margin-left: 38px;
+}
+
+.section_3_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.romb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: auto;
+    width: 420px;
+    height: 420px;
+    background: #10B981;
+    transform: rotate(45deg);
+}
+
+footer {
+    padding-top: 48px;
+    height: 346px;
+    background-color: #9CA3AF;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo_footer {
+    position: relative;
+    width: 176px;
+    height: 35.92px;
+    margin-top: 0px;
+    margin-left: 64px;
+    z-index: 2;
+}
+
+.footer_table {
+    margin-left: 64px;
+}
+
+.footer_p {
+    width: 640px;
+    height: 72px;
+    margin-top: 36.08px;
+    margin-left: 64px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_right_text {
+    color: #F9FAFB;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+.footer_right_cart_1 {
+    width: 176px;
+    margin-left: 452px;
+}
+
+.footer_href {
+    color: #F9FAFB;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.line {
+    width: 1472px;
+    height: 2px;
+    background-color: #F9FAFB;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+
+.tm {
+    color: #F9FAFB;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 24px;
+    margin-left: 64px;
+}
+
+.strelka {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color:#EF4444;
+    margin-top: -140px;
+    margin-left: 1182px;
+    border-radius: 64px;
+    text-align: center;
+}
+
+.arrow {
+    width: 17.54px;
+    height: 17.18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.down {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
 }
